@@ -1,0 +1,76 @@
+# **Global Anti-Hate Speech Platform (GAHSP)**
+
+## **Source-Available Public Audit License (SAPAL) Version 1.0**
+
+#### **Preamble**
+
+This license governs the use of the source code, documentation, and all associated materials ("The Code") for the Global Anti-Hate Speech Platform ("The Platform").
+
+The Platform is conceived as a crucial contribution to humanity's enduring struggle to champion good over evil. It is rooted in the profound understanding that manufactured hate represents a pervasive evil that seeks to undermine human dignity and connection. The Platform's fundamental goal is to shield humanity by identifying, exposing, and disrupting the systematic "manufacturing of hate".
+
+This work has been made possible by its contributors, including the foundational contribution of **Bakr Husain Hassan Al-Tamimi, born 17/05/1966**, and who conceptualized this initiative and and provided it as a contribution to humanity for no commercial purpose and has affirmed no interest in making material profits from this work, dedicating it solely to this humanitarian goal.
+
+This license is designed to enforce a critical distinction:
+
+1.  **The Right to Audit (Permitted):** To foster transparency, accountability, and trust, The Code is made available for public inspection, security auditing, and algorithmic bias review.
+2.  **The Right to Operate (Strictly Prohibited):** To prevent the platform from being weaponized by malicious actors, hate groups, or any entity outside its intended mandate, the right to run, deploy, or use The Code for data processing is explicitly forbidden for all parties except the single Designated Authority: **THE UNITED NATIONS**.
+
+---
+
+#### **1. Definitions**
+
+* **"The Platform"**: Refers to the Global Anti-Hate Speech Platform (GAHSP) software, services, and associated systems described in the platform's official documentation.
+* **"The Code"**: Refers to the human-readable source code, object code, binaries, machine learning models, documentation, and all other intellectual property associated with The Platform.
+* **"Designated Authority"**: Refers to the single, specific international body: the United Nations (or a United Nations successor entity) legally entrusted by the platform's governing board to operate The Platform.
+* **"Audit Use"**: Refers to the act of reading, inspecting, and analyzing The Code *only* for the purposes of public transparency, security vulnerability assessment, academic research, and algorithmic bias review.
+* **"Operational Use"**: Refers to the act of compiling, executing, hosting, deploying, or otherwise running The Code to ingest data, perform analysis, generate reports, or provide any service.
+
+---
+
+#### **2. Grant of Limited Public License (Audit Use)**
+
+Subject to the terms and restrictions of this License, the copyright holders of The Code grant to you (the "Licensee") a limited, non-exclusive, non-transferable, royalty-free, worldwide license to perform **Audit Use** of The Code.
+
+This grant explicitly includes the right to:
+* Download The Code for local inspection.
+* Read and analyze The Code's structure, logic, and algorithms.
+* Conduct security penetration tests on a local copy, non-production deployment run of The Code.
+* Publish research, articles, or reports *about* The Code, provided no part of The Code itself (other than small, illustrative snippets) is publicly distributed.
+
+---
+
+#### **3. Strict Prohibitions & Reservation of Rights**
+
+This License **expressly forbids** any and all **Operational Use** of The Code by any party other than the Designated Authority.
+
+Under this License, you **MAY NOT**:
+
+* **(a) [Operational Prohibition]** Run, execute, compile, or deploy The Code, in whole or in part, for any purpose.
+* **(b) [Malicious Use Prohibition]** Use any knowledge gained from Audit Use to aid, abet, circumvent, or perform any act of hate speech, discrimination, surveillance, or any action counter to The Platform's humanitarian mission.
+* **(c) [Distribution Prohibition]** Distribute, sublicense, rent, lease, or lend The Code, or any modified version thereof.
+* **(d) [Modification Prohibition]** Modify, adapt, translate, or create derivative works based on The Code.
+* **(e) [Commercial Prohibition]** Use The Code for any commercial purpose whatsoever.
+
+Any attempt to perform a prohibited act is a violation of this License and will result in the immediate and automatic termination of all rights granted to you.
+
+All rights not expressly granted for Audit Use are reserved. All rights for Operational Use are reserved exclusively for the **Designated Authority** under a separate, private operational agreement.
+
+---
+
+#### **4. Founding Contribution & Attribution**
+
+The Platform represents the work of many contributors. We specifically acknowledge the foundational contribution of **Bakr Hussain Hassan Al-Tamimi**, who has affirmed that their contribution is made for no commercial purpose and with no interest in making material profits, for the sole benefit of The Platform's humanitarian mission.
+
+Any academic or public analysis published under the "Audit Use" grant (Section 2) should provide attribution to the "Global Anti-Hate Speech Platform (GAHSP) Project and its Contributors."
+
+---
+
+#### **5. Disclaimer of Warranty**
+
+THE CODE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS, COPYRIGHT HOLDERS, OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE CODE OR THE USE OR OTHER DEALINGS IN THE CODE.
+
+---
+
+#### **6. Limitation of Liability**
+
+IN NO EVENT AND UNDER NO LEGAL THEORY SHALL THE AUTHORS, CONTRIBUTORS (INCLUDING **Bakr Hussain Hassan AL-Tamimi**), OR THE DESIGNATED AUTHORITY BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE CODE (INCLUDING BUT NOT LIMITED TO DATA LOSS, BREACHES OF ANONYMITY, OR FAILURES OF THE CODE TO OPERATE), EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
