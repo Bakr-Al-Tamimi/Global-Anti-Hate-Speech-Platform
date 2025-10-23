@@ -1,4 +1,4 @@
-#Anti-Hate Platform
+# Anti-Hate Platform
 
 [Please read the full Global Anti-Hate Platform Charter.](https://docs.google.com/document/d/15UQAv1neaA1qSaUvfsaNy0v6lbsbnmZl0c8m5sdYU2I/edit?usp=sharing)
 [You can leave comments directly on the document.](https://docs.google.com/document/d/15UQAv1neaA1qSaUvfsaNy0v6lbsbnmZl0c8m5sdYU2I/edit?usp=sharing)
