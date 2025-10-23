@@ -1,5 +1,7 @@
 # Anti-Hate Platform
 
+[Invitation to Contributers](https://github.com/Bakr-Al-Tamimi/Global-Anti-Hate-Speech-Platform/blob/main/Contributors/Invitation%20to%20Contributors.md)
+
 [Please read the full Global Anti-Hate Platform Charter.](https://docs.google.com/document/d/15UQAv1neaA1qSaUvfsaNy0v6lbsbnmZl0c8m5sdYU2I/edit?usp=sharing)
 [You can leave comments directly on the document.](https://docs.google.com/document/d/15UQAv1neaA1qSaUvfsaNy0v6lbsbnmZl0c8m5sdYU2I/edit?usp=sharing)
 
@@ -161,8 +163,14 @@ This is an opportunity to apply your professional skills to one of the most pres
 
 We operate under a "Source-Available Public Audit License" (SAPAL) to ensure full public transparency while preventing the platform's misuse by malicious actors. This project has no commercial purpose; it is dedicated solely to this humanitarian mission.
 
-For more details, please refer to `Contributors/Invitation to Contributors.md`.
+For more details, please refer to [Invitation to Contributers](https://github.com/Bakr-Al-Tamimi/Global-Anti-Hate-Speech-Platform/blob/main/Contributors/Invitation%20to%20Contributors.md)
+
+[Please read the full Global Anti-Hate Platform Charter.](https://docs.google.com/document/d/15UQAv1neaA1qSaUvfsaNy0v6lbsbnmZl0c8m5sdYU2I/edit?usp=sharing)
+
 
 ## License
 
 This project is licensed under the Source-Available Public Audit License (SAPAL) Version 1.0. For full details, please see `Licence/Source-Available Public Audit License (SAPAL) Version 1.0.lic`.
+
+---
+[Please read the full Global Anti-Hate Platform Charter.](https://docs.google.com/document/d/15UQAv1neaA1qSaUvfsaNy0v6lbsbnmZl0c8m5sdYU2I/edit?usp=sharing)
