@@ -1,8 +1,15 @@
-# Global Anti-Hate Speech Platform (GAHSP)
+#Anti-Hate Platform
+
+[Please read the full Global Anti-Hate Platform Charter.](https://docs.google.com/document/d/15UQAv1neaA1qSaUvfsaNy0v6lbsbnmZl0c8m5sdYU2I/edit?usp=sharing)
+[You can leave comments directly on the document.](https://docs.google.com/document/d/15UQAv1neaA1qSaUvfsaNy0v6lbsbnmZl0c8m5sdYU2I/edit?usp=sharing)
+
+[Participate in the public ratification vote for the Anti-Hate Platform Charter.](https://docs.google.com/forms/d/1OMlaWMh7hRdjxWb8wiuOsRYj_ca03M0Gl51ObyED9tE/edit)
+[Your feedback is crucial.](https://docs.google.com/forms/d/1OMlaWMh7hRdjxWb8wiuOsRYj_ca03M0Gl51ObyED9tE/edit)
+[Anti-Hate Platform Charter: Public Ratification Vote](https://docs.google.com/forms/d/1OMlaWMh7hRdjxWb8wiuOsRYj_ca03M0Gl51ObyED9tE/edit)
 
 ## "Helping Good Overcome Evil in the Digital Age"
 
-The Global Anti-Hate Speech Platform (GAHSP) is a crucial contribution to humanity's enduring struggle to champion good over evil. Rooted in the profound understanding that hate represents an insidious evil that seeks to undermine the very fabric of human connection and dignity, this platform moves beyond the symptomatic treatment of individual hateful utterances to address the systemic processes that generate them – the "manufacturing of hate."
+The Global Anti-Hate Speech Platform is a crucial contribution to humanity's enduring struggle to champion good over evil. Rooted in the profound understanding that hate represents an insidious evil that seeks to undermine the very fabric of human connection and dignity, this platform moves beyond the symptomatic treatment of individual hateful utterances to address the systemic processes that generate them – the "manufacturing of hate."
 
 ## Mission and Goals
 
