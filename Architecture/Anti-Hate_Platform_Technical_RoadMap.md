@@ -1,6 +1,9 @@
 # Anti-Hate Platform
 ## Technical Roadmap
 
+NOTE:
+**A completely reimagined technical roadmap based on yan evolved vision of a distributed, hiearchical, foresting workloads architecture, has been developed and this file is kept for historical purposes**
+  
 ---
 
 ## Executive Summary
