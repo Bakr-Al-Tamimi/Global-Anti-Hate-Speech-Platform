@@ -15,7 +15,7 @@ The Global Anti-Hate Speech Platform is a crucial contribution to humanity's end
 
 ## Mission and Goals
 
-The GAHSP's fundamental goals are framed by the imperative to counter the organized, insidious phenomenon of "manufacturing hate":
+The fundamental goals of this Anti-Hate Platform  are framed by the imperative to counter the organized, insidious phenomenon of "manufacturing hate":
 
 1.  **To Serve in Shielding Humanity Against Manufactured Hate (Countering Evil):** Actively identify, expose, and disrupt the deliberate and systematic "manufacturing of hate" that poisons global discourse and instigates real-world harm.
 2.  **To Deconstruct and Understand the Machinery of Hatred (Unveiling the Anti-God Process):** Move beyond surface-level detection by thoroughly dissecting the origins, methods, and networks behind hate speech campaigns.
@@ -35,7 +35,7 @@ The platform is built on a **federated, 4-tier hierarchical architecture**. This
 
 ### The Two-Way Data Flow (Coordination)
 
-The system operates on two core principles defined in the GAHSP glossary:
+The system operates on two core principles defined in the Anti-Hate Platform glossary:
 
 * **🧠 Emergent Intelligence (Bottom-Up):** Local signals (metadata) flow "up" from Leaf to Global. A pattern invisible to a single city node becomes a clear, coordinated campaign when aggregated at the National or Global level. This is how the system *learns*.
 * **⚡ Neuro-Control (Top-Down):** The Global node sends commands "down" to all nodes. This is how the system *acts* cohesively. This hierarchical control plane uses secure gRPC (with mTLS) to distribute configuration updates, task assignments, and new ML models to all nodes.
@@ -94,7 +94,7 @@ The platform is designed to meet the stringent operational, security, and legal 
 
 ## Contributing
 
-The GAHSP is assembling a dedicated, pro-bono coalition of the world's leading professionals. We are actively seeking expert contributions from:
+The Anti-Hate Platform is assembling a dedicated, pro-bono coalition of the world's leading professionals. We are actively seeking expert contributions from:
 
 *   **Software Architects & Lead Developers**
 *   **UI/UX Designers**
