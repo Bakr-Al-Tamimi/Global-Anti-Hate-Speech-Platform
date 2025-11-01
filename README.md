@@ -115,7 +115,7 @@ For more details, please refer to [Invitation to Contributers](https://github.co
 
 ## License
 
-This project is licensed under the Source-Available Public Audit License (SAPAL) Version 1.0. For full details, please see `Licence/Source-Available Public Audit License (SAPAL) Version 1.0.lic`.
+This project is [licensed](https://github.com/Bakr-Al-Tamimi/Anti-Hate/blob/main/Licence/Source-Available%20Public%20Audit%20License%20(SAPAL)%20Version%201.0.lic) under the Source-Available Public Audit License (SAPAL) Version 1.0. For full details, please see [`Licence/Source-Available Public Audit License (SAPAL) Version 1.0.lic`](https://github.com/Bakr-Al-Tamimi/Anti-Hate/blob/main/Licence/Source-Available%20Public%20Audit%20License%20(SAPAL)%20Version%201.0.lic).
 
 ---
 
