@@ -1,5 +1,7 @@
 # Anti-Hate Platform
 
+[Anti-Hate Platform](./Resources/logo/Anti-Hate Platform - Logo Candidate - Collaborative Cycle.png)
+
 [Invitation to Contributers](https://github.com/Bakr-Al-Tamimi/Global-Anti-Hate-Speech-Platform/blob/main/Contributors/Invitation%20to%20Contributors.md)
 
 [Please read the full Global Anti-Hate Platform Charter.](https://docs.google.com/document/d/15UQAv1neaA1qSaUvfsaNy0v6lbsbnmZl0c8m5sdYU2I/edit?usp=sharing)
