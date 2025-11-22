@@ -5,12 +5,18 @@
 
 [Invitation to Contributers](https://github.com/Bakr-Al-Tamimi/Global-Anti-Hate-Speech-Platform/blob/main/Contributors/Invitation%20to%20Contributors.md)
 
-[Please read the full Global Anti-Hate Platform Charter.](https://docs.google.com/document/d/15UQAv1neaA1qSaUvfsaNy0v6lbsbnmZl0c8m5sdYU2I/edit?usp=sharing)
-[You can leave comments directly on the document.](https://docs.google.com/document/d/15UQAv1neaA1qSaUvfsaNy0v6lbsbnmZl0c8m5sdYU2I/edit?usp=sharing)
+[Invitation to Contributers](https://github.com/Bakr-Al-Tamimi/Global-Anti-Hate-Speech-Platform/blob/main/Contributors/Invitation%20to%20Contributors.md)
+
+## Governance (Version 1.0)
+
+The platform is governed by a three-tier system of documents, designed to ensure moral integrity and operational efficiency.
+
+*   **[The Governance Manifesto](./Governance/Governance_Manifesto.md)**: The overview of our "Living System" approach.
+*   **[The Charter](./Governance/Anti-Hate_Platform_Charter.md)**: The Supreme Moral Authority. Defines Hate Speech and Protected Characteristics. ([Arabic Version](./Governance/Anti-Hate_Platform_Charter_AR.md))
+*   **[System Architecture & Rights](./Governance/Anti-Hate_Platform_System_Architecture_and_Rights.md)**: The Technical Constitution. Defines Node Autonomy and Privacy.
+*   **[Operational Bylaws](./Governance/Anti-Hate_Platform_Operational_Bylaws.md)**: The Rulebook. Defines Elections and Vetting.
 
 [Participate in the public ratification vote for the Anti-Hate Platform Charter.](https://docs.google.com/forms/d/1OMlaWMh7hRdjxWb8wiuOsRYj_ca03M0Gl51ObyED9tE/edit)
-[Your feedback is crucial.](https://docs.google.com/forms/d/1OMlaWMh7hRdjxWb8wiuOsRYj_ca03M0Gl51ObyED9tE/edit)
-[Anti-Hate Platform Charter: Public Ratification Vote](https://docs.google.com/forms/d/1OMlaWMh7hRdjxWb8wiuOsRYj_ca03M0Gl51ObyED9tE/edit)
 
 ## "Helping Good Overcome Evil in the Digital Age"
 
@@ -114,12 +120,6 @@ We operate under a "Source-Available Public Audit License" (SAPAL) to ensure ful
 
 For more details, please refer to [Invitation to Contributers](https://github.com/Bakr-Al-Tamimi/Global-Anti-Hate-Speech-Platform/blob/main/Contributors/Invitation%20to%20Contributors.md)
 
-[Please read the full Global Anti-Hate Platform Charter.](https://docs.google.com/document/d/15UQAv1neaA1qSaUvfsaNy0v6lbsbnmZl0c8m5sdYU2I/edit?usp=sharing)
-
 ## License
 
 This project is [licensed](https://github.com/Bakr-Al-Tamimi/Anti-Hate/blob/main/Licence/Source-Available%20Public%20Audit%20License%20(SAPAL)%20Version%201.0.lic) under the Source-Available Public Audit License (SAPAL) Version 1.0. For full details, please see [`Licence/Source-Available Public Audit License (SAPAL) Version 1.0.lic`](https://github.com/Bakr-Al-Tamimi/Anti-Hate/blob/main/Licence/Source-Available%20Public%20Audit%20License%20(SAPAL)%20Version%201.0.lic).
-
----
-
-[Please read the full Global Anti-Hate Platform Charter.](https://docs.google.com/document/d/15UQAv1neaA1qSaUvfsaNy0v6lbsbnmZl0c8m5sdYU2I/edit?usp=sharing)
