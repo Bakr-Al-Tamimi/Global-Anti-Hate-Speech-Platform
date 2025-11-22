@@ -40,8 +40,8 @@ The fundamental goals of this Anti-Hate Platform  are framed by the imperative t
 
 The platform is built on a **federated, 4-tier hierarchical architecture**. Click the image below to explore the full interactive diagram:
 
-[![Multi-Cluster Hierarchy](Architecture/diagrams/images/multi-cluster-hierarchy-thumbnail.png)](Architecture/diagrams/multi-cluster-hierarchy.html)
-
+[![Multi-Cluster Hierarchy](Architecture/diagrams/images/multi-cluster-hierarchy-thumbnail.png)](Architecture/diagrams/images/multi-cluster-hierarchy-thumbnail.png)
+Architecture/diagrams/images/multi-cluster-hierarchy-thumbnail.png
 **[→ Open Full Interactive Diagram](Architecture/diagrams/multi-cluster-hierarchy.html)**
 
 </details>
