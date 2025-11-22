@@ -28,25 +28,41 @@ The fundamental goals of this Anti-Hate Platform  are framed by the imperative t
 
 1.  **To Serve in Shielding Humanity Against Manufactured Hate (Countering Evil):** Actively identify, expose, and disrupt the deliberate and systematic "manufacturing of hate" that poisons global discourse and instigates real-world harm.
 2.  **To Deconstruct and Understand the Machinery of Hatred (Unveiling the Anti-God Process):** Move beyond surface-level detection by thoroughly dissecting the origins, methods, and networks behind hate speech campaigns.
-3.  **To Empower International Action Through Actionable Intelligence (Enabling Good to Overcome Evil):** Transform raw data and complex insights into clear, actionable intelligence that enables international authorities (such as the United Nations, human rights organizations, and legal bodies) to intervene effectively.
+3.  **To Empower International Action Through Actionable Smart (Enabling Good to Overcome Evil):** Transform raw data and complex insights into clear, actionable smart that enables international authorities (such as the United Nations, human rights organizations, and legal bodies) to intervene effectively.
 4.  **To Foster Transparency and Accountability in the Fight Against Hate (Promoting Love and Justice):** Establish a transparent, internationally validated, and publicly accessible mechanism for identifying and contextualizing hate speech, fostering greater accountability for its creators and amplifiers.
 
 ## Architecture & Key Features (v2.0 Distributed Federated Architecture)
 
-The platform is built on a **federated, 4-tier hierarchical architecture**. This model ensures massive scalability, resilience, and strict data privacy by processing and storing raw content *only* at the local level. Only anonymized, aggregated metadata flows upward, allowing for global pattern recognition without centralizing sensitive data.
+### Visual Overview
+
+<details>
+<summary><strong>🏗️ Click to view the Multi-Cluster Hierarchy Diagram</strong></summary>
+
+The platform is built on a **federated, 4-tier hierarchical architecture**. Click the image below to explore the full interactive diagram:
+
+[![Multi-Cluster Hierarchy](Architecture/diagrams/images/multi-cluster-hierarchy-thumbnail.png)](Architecture/diagrams/multi-cluster-hierarchy.html)
+
+**[→ Open Full Interactive Diagram](Architecture/diagrams/multi-cluster-hierarchy.html)**
+
+</details>
 
 ### The Federated 4-Tier Architecture (Distribution)
 
-1.  **Leaf Nodes (City/Community):** The "sensors" of the network. These nodes perform all raw data collection, including social media monitoring (via hashtag triggers) and anonymous public submissions. They store the full, raw content locally, perform initial ML analysis, and manage the local Trustee voting.
-2.  **Regional Nodes (State/Province):** These nodes aggregate *metadata* (not raw content) from their child Leaf Nodes. Their job is to find cross-city patterns, coordinated campaigns, and common hate-manufacturers operating in their region.
+The platform's architecture model ensures massive scalability, resilience, and strict data privacy by processing and storing raw content *only* at the local level. Only anonymized, aggregated metadata flows upward, allowing for global pattern recognition without centralizing sensitive data.
+
+![Multi-Cluster Hierarchy](Architecture/diagrams/multi-cluster-hierarchy.svg)
+
+1.  **Local Nodes (City/Community):** The "sensors" of the network. These nodes perform all raw data collection, including social media monitoring (via hashtag triggers) and anonymous public submissions. They store the full, raw content locally, perform initial ML analysis, and manage the local Trustee voting.
+2.  **Regional Nodes (State/Province):** These nodes aggregate *metadata* (not raw content) from their child Local Nodes. Their job is to find cross-city patterns, coordinated campaigns, and common hate-manufacturers operating in their region.
 3.  **National Nodes (Country):** Aggregate metadata from Regional Nodes to identify *national-scale* campaigns, state-sponsored disinformation, and threats within a single jurisdiction.
-4.  **Global Coordination Nodes:** The top-level node. It synthesizes intelligence from all National Nodes to identify *international* campaigns and global networks. This node provides reports to international bodies (like the UN and ICC) and hosts the public transparency portal.
+4.  **International Coordination Nodes:** The top-level node. It synthesizes smart from all National Nodes to identify *international* campaigns and global networks. This node provides feeds to international bodies (like the UN and ICC) and hosts the public transparency portal.
+
 
 ### The Two-Way Data Flow (Coordination)
 
 The system operates on two core principles defined in the Anti-Hate Platform glossary:
 
-* **🧠 Emergent Intelligence (Bottom-Up):** Local signals (metadata) flow "up" from Leaf to Global. A pattern invisible to a single city node becomes a clear, coordinated campaign when aggregated at the National or Global level. This is how the system *learns*.
+* **🧠 Emergent Smart (Bottom-Up):** Local signals (metadata) flow "up" from Leaf to Global. A pattern invisible to a single city node becomes a clear, coordinated campaign when aggregated at the National or Global level. This is how the system *learns*.
 * **⚡ Neuro-Control (Top-Down):** The Global node sends commands "down" to all nodes. This is how the system *acts* cohesively. This hierarchical control plane uses secure gRPC (with mTLS) to distribute configuration updates, task assignments, and new ML models to all nodes.
 
 ### Containerization & Orchestration
@@ -55,7 +71,7 @@ The entire platform is designed as a collection of microservices, containerized 
 
 * **Automated Provisioning:** New nodes at any level can be provisioned automatically via **Infrastructure-as-Code (IaC)** on any cloud (AWS, GCP, Azure) or on-premise environment (FR-1.1.1, FR-1.1.3).
 * **Specialized Containers:** Each node runs a suite of specialized containers for different tasks (FR-1.2.2):
-    * **Collection:** `collector-twitter`, `collector-facebook`, `collector-anonymous`, etc.
+    * **Collection:** `observer-twitter`, `observer-facebook`, `observer-anonymous`, etc.
     * **Analysis:** `analyzer-text`, `analyzer-image`, `analyzer-video`, `analyzer-entity`, etc.
     * **Infrastructure:** `storage-postgres`, `cache-redis`, `queue-kafka`, etc.
     * **Coordination:** `metadata-sync`, `control-agent`, `health-monitor`, etc.
@@ -63,11 +79,11 @@ The entire platform is designed as a collection of microservices, containerized 
 
 ### Core Functional Workflow
 
-1.  **Ingestion (Leaf Node):** Content is collected via hashtag-based reporting (FR-2.2) or the **Anonymous Submission Portal** (FR-2.3). All uploads are scanned for malware (FR-2.5.1) and personally identifying metadata (like EXIF data) is stripped (FR-2.5.3).
-2.  **Initial Analysis (Leaf Node):** The content is processed by a local suite of ML `analyzer` containers (FR-3.1). This analysis supports over 50 languages (FR-3.1.3) and produces a "potential hate speech" score.
+1.  **Ingestion (Local Node):** Content is collected via hashtag-based reporting (FR-2.2) or the **Anonymous Submission Portal** (FR-2.3). All uploads are scanned for malware (FR-2.5.1) and personally identifying metadata (like EXIF data) is stripped (FR-2.5.3).
+2.  **Initial Analysis (Local Node):** The content is processed by a local suite of ML `analyzer` containers (FR-3.1). This analysis supports over 50 languages (FR-3.1.3) and produces a "potential hate speech" score.
 3.  **Human Verification (Trustee Voting):** Flagged content is queued for the **Trustee Voting System** (FR-3.2). At least 3 human experts must vote to `Approve` the content as "confirmed hate speech." This human-in-the-loop step is mandatory.
-4.  **Comprehensive Analysis (Leaf Node):** Once confirmed, a deep analysis extracts all entities (victims, manufacturers), network data, and jurisdictional info (FR-3.3). This process supports **Federated Learning** (FR-3.4.3), allowing models to be trained on local data without it ever leaving the node.
-5.  **Hierarchical Intelligence (Upward Flow):** The Leaf Node streams an **anonymized metadata packet** (using Protocol Buffers, FR-4.1.1) to its parent Regional Node. **The raw content never leaves the Leaf Node** (C-22.2).
+4.  **Comprehensive Analysis (Local Node):** Once confirmed, a deep analysis extracts all entities (victims, manufacturers), network data, and jurisdictional info (FR-3.3). This process supports **Federated Learning** (FR-3.4.3), allowing models to be trained on local data without it ever leaving the node.
+5.  **Hierarchical Smart (Upward Flow):** The Local Node streams an **anonymized metadata packet** (using Protocol Buffers, FR-4.1.1) to its parent Regional Node. **The raw content never leaves the Local Node** (C-22.2).
 6.  **Pattern Recognition (Regional/National/Global):** Higher-level nodes use this aggregated metadata in **TimescaleDB (for trends)** and **Neo4j (for networks)** to discover large-scale campaigns, coordinated behavior, and international threats (FR-4.3, FR-5.3).
 7.  **Global Action (Reporting & APIs):** The Global Node provides an **Aggregation Workbench** (FR-6.1) for analysts, hosts a **Public Portal** with a "Top 10" list (FR-6.5), and provides a **dedicated API for international bodies** like the UN and ICC (FR-6.6).
 
@@ -85,7 +101,7 @@ The platform is designed to meet the stringent operational, security, and legal 
 ### Resilience & Autonomy
 
 * **Node Autonomy:** This is a core architectural feature. A node **can operate autonomously for up to 30 days** if disconnected from its parent (NFR-13.2). It will continue to collect and analyze data, synchronizing automatically when the connection is restored.
-* **High Availability:** The platform targets **99.99% uptime** for the Global Node and 99.9% for production Leaf Nodes (NFR-13.1).
+* **High Availability:** The platform targets **99.99% uptime** for the Global Node and 99.9% for production Local Nodes (NFR-13.1).
 * **Fault Tolerance:** Failed containers are automatically restarted by Kubernetes within 30 seconds (NFR-13.4). The system uses **circuit breakers** (NFR-13.6) and supports **graceful degradation** (NFR-13.7) to prevent cascading failures.
 * **Disaster Recovery:** A clear DR plan targets a **Recovery Point Objective (RPO) of < 1 hour** and a **Recovery Time Objective (RTO) of < 4 hours** (NFR-13.8).
 
