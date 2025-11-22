@@ -35,22 +35,11 @@ The fundamental goals of this Anti-Hate Platform  are framed by the imperative t
 
 ### Visual Overview
 
-<details>
-<summary><strong>🏗️ Click to view the Multi-Cluster Hierarchy Diagram</strong></summary>
-
-The platform is built on a **federated, 4-tier hierarchical architecture**. Click the image below to explore the full interactive diagram:
-
-[![Multi-Cluster Hierarchy](Architecture/diagrams/images/multi-cluster-hierarchy-thumbnail.png)](Architecture/diagrams/images/multi-cluster-hierarchy-thumbnail.png)
-Architecture/diagrams/images/multi-cluster-hierarchy-thumbnail.png
-**[→ Open Full Interactive Diagram](Architecture/diagrams/multi-cluster-hierarchy.html)**
-
-</details>
-
 ### The Federated 4-Tier Architecture (Distribution)
 
 The platform's architecture model ensures massive scalability, resilience, and strict data privacy by processing and storing raw content *only* at the local level. Only anonymized, aggregated metadata flows upward, allowing for global pattern recognition without centralizing sensitive data.
 
-![Multi-Cluster Hierarchy](Architecture/diagrams/multi-cluster-hierarchy.svg)
+![Multi-Cluster Hierarchy](Architecture/diagrams/images/multi-cluster-hierarchy-thumbnail.png)
 
 1.  **Local Nodes (City/Community):** The "sensors" of the network. These nodes perform all raw data collection, including social media monitoring (via hashtag triggers) and anonymous public submissions. They store the full, raw content locally, perform initial ML analysis, and manage the local Trustee voting.
 2.  **Regional Nodes (State/Province):** These nodes aggregate *metadata* (not raw content) from their child Local Nodes. Their job is to find cross-city patterns, coordinated campaigns, and common hate-manufacturers operating in their region.
